@@ -49,4 +49,9 @@
         android:layout_height="wrap_content"
         android:text="@string/stop_service"
         android:onClick="stopService" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/broadcast_intent"
+        android:onClick="broadCastIntent"/>
 </LinearLayout>

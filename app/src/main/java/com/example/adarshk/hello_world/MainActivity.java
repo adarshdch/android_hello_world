@@ -76,4 +76,10 @@ public class MainActivity extends AppCompatActivity {
     {
         Toast.makeText(this, "You are also welcome :)", Toast.LENGTH_LONG).show();
     }
+
+    public void broadCastIntent(View view){
+        Intent intent = new Intent();
+        intent.setAction("com.adarsh.CUSTOM_INTENT");
+        sendBroadcast(intent);
+    }
 }
